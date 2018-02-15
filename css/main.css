@@ -24,10 +24,19 @@ html {
   width: 100%;
 }
 
-.banner {
+body {
+  margin: 0;
+}
 
+.banner {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
-
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
 }
